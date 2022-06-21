@@ -1,7 +1,7 @@
 # OpenGLRendering
 Demonstration of OpenGL based rendering - History App (Bangladesh Liberation War History App)
 
-<img src="https://github.com/tanjinbd/OpenGLRendering/blob/main/War_Museum_Rendering_OpenGL.png" width="750" title="OpenGL based app rendering with Custom Coverflow">
+<img src="https://github.com/tanjinbd/LiberationWar5/blob/main/War_Museum_Rendering_OpenGL.png" width="750" title="OpenGL based app rendering with Custom Coverflow">
 
 This app demonstrate custom OpenGL UI elements using native android code.
 
