@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="0dip" >
+
+    <com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar" />
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/backrepeat"
+    android:scrollbars="vertical" >
+
+    
+        <ImageButton
+            android:id="@+id/mapshow_button"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/l1" />
+
+        <ImageButton
+            android:id="@+id/mapshow_button_khulna"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/l2" />
+
+        <ImageButton
+            android:id="@+id/mapshow_button_sylhet"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/l3" />
+
+        <ImageButton
+            android:id="@+id/mapshow_button_dinaj"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/l4" />
+
+        <ImageButton
+            android:id="@+id/mapshow_button_mymen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/l5" />
+    
+
+</ScrollView>
+</LinearLayout>

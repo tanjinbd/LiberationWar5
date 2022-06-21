@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+     <com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar" /> 
+
+        <TableLayout
+            
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" >
+
+            <TableRow
+                android:id="@+id/tableRow1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:id="@+id/imageButton0"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_span="2"
+                    android:scaleType="center"
+                    android:src="@drawable/banner2a" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <VideoView
+                    android:id="@+id/myvideoview"
+                    android:layout_width="fill_parent"
+                     android:layout_span="2"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+            
+             <TableRow
+                android:id="@+id/tableRow32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_span="2"
+        android:maxLines="10"
+        android:textColor="#FFFFFF"
+        android:padding="5dip"
+        android:gravity="center"
+        android:text="December 16, 1971: Marking the end of the Bangladesh liberation war, Lt. Gen. A.K. Niazi of the Pakistan Army signs the Instrument of Surrender in Dhaka. Lt. Gen. J.S. Aurora, General Officer Commanding-in-Chief, Eastern Command, is seated next to him." />
+            </TableRow>
+
+            
+        </TableLayout>
+   
+
+</LinearLayout>

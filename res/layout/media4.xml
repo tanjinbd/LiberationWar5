@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+     <com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar" /> 
+
+        <TableLayout
+            
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" >
+
+            <TableRow
+                android:id="@+id/tableRow1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:id="@+id/imageButton0"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_span="2"
+                    android:scaleType="center"
+                    android:src="@drawable/banner2a" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <VideoView
+                    android:id="@+id/myvideoview"
+                    android:layout_width="fill_parent"
+                     android:layout_span="2"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+            
+             <TableRow
+                android:id="@+id/tableRow36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_span="2"
+        android:maxLines="10"
+        android:textColor="#FFFFFF"
+        android:padding="5dip"
+        android:gravity="center"
+        android:text="Bangladesh Liberation War - Rare NBC News Footage 2" />
+            </TableRow>
+            
+             <TableRow
+                android:id="@+id/tableRow37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <ImageButton
+                    android:id="@+id/lb1"
+                    android:layout_width="155dp"
+                    android:layout_height="115dp"
+                    android:src="@drawable/lb1" />
+
+                <ImageButton
+                    android:id="@+id/rb1"
+                    android:layout_width="155dp"
+                    android:layout_height="115dp"
+                    android:src="@drawable/rb1" />
+            </TableRow>
+
+          
+        </TableLayout>
+   
+
+</LinearLayout>

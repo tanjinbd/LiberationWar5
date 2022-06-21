@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar" />
+
+    <ScrollView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/backrepeat"
+        android:scrollbars="vertical" >
+
+        <TableLayout
+            
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <view
+                    android:id="@+id/mvsmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    class="com.google.android.maps.MapView"
+                    android:apiKey="0eeeA1XCqRO1PUaxuBt-2wfHvTvitfXoS_z4o6Q"
+                    android:clickable="true" />
+                <!-- //Signed API key:  0eeeA1XCqRO1PUaxuBt-2wfHvTvitfXoS_z4o6Q -->
+                <!-- //Debug API key:  0eeeA1XCqRO2fD-xsnRuB-BlxTFHtuQqTJuDbXA -->
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1a"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:id="@+id/imageButton0"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="center"
+                    android:src="@drawable/banner2b" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1b"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Large Text"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1bc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <ListView
+                    android:id="@+id/lvPlaces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                </ListView>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

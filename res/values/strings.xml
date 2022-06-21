@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">BD Liberation War</string>
+    <string name="app_name">BD Liberation War</string>
+    <string name="goLabel">Dhaka - Chittagong</string>
+    <string name="goLabel1">Dhaka - Dinajpur</string>
+    <string name="goLabel2">Dhaka - Mymensingh</string>
+    <string name="goLabel3">Dhaka - Khulna</string>
+    <string name="goLabel4">Dhaka - Sylhet</string>
+    <string name="overlay_label">Station</string>
+    <string name="access_label">Junction</string>
+    <string name="route_label">Railway</string>
+    <color name="text_color">#31D1F1</color>
+    <color name="white">#ffffff</color>
+    <string name="open">Open</string>
+    <string name="spinner1_prompt">Bangladesh War History</string>
+    <string-array name="spinner1_entries">
+        <item>Select</item>
+        <item>The Initiation</item>
+        <item>Early 1971</item>
+        <item>Vasha Andolon</item>
+        <item>Post 1971</item>
+    </string-array>
+
+</resources>

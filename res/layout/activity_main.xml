@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="0dip" >
+
+    <com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar" />
+
+    <ScrollView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="#000000"
+        android:scrollbars="vertical" >
+
+        <TableLayout
+            
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:id="@+id/imageButton0"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_span="2"
+                    android:scaleType="center"
+                    android:src="@drawable/banner" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:id="@+id/imageButton40"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_span="2"
+                    android:scaleType="center"
+                    android:src="@drawable/banner2a" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <ImageButton
+                    android:id="@+id/intro"
+                    android:layout_width="155dp"
+                    android:layout_height="142dp"
+                    android:src="@drawable/left" />
+
+                <TableLayout>
+
+                    <TableRow>
+
+                        <ImageButton
+                            android:id="@+id/right1"
+                            android:layout_width="155dp"
+                            android:layout_height="72dp"
+                            android:src="@drawable/r1" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <ImageButton
+                            android:id="@+id/right2"
+                            android:layout_width="155dp"
+                            android:layout_height="72dp"
+                            android:src="@drawable/r2" />
+                    </TableRow>
+                </TableLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <ImageButton
+                    android:id="@+id/l21"
+                    android:layout_width="155dp"
+                    android:layout_height="115dp"
+                    android:src="@drawable/lm1" />
+
+                <ImageButton
+                    android:id="@+id/l22"
+                    android:layout_width="155dp"
+                    android:layout_height="115dp"
+                    android:src="@drawable/rm1" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dip" >
+
+                <ImageButton
+                    android:id="@+id/lb1"
+                    android:layout_width="155dp"
+                    android:layout_height="115dp"
+                    android:src="@drawable/lb1" />
+
+                <ImageButton
+                    android:id="@+id/rb1"
+                    android:layout_width="155dp"
+                    android:layout_height="115dp"
+                    android:src="@drawable/rb1" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
