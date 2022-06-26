@@ -34,3 +34,18 @@ Version 0.7 Updates:
 Version 0.5 Updates:
 1. New App logo
 2. Metro UI based home 
+
+Coverflow Rendering and Concept:
+In the project root folder, go to: src\com\gpit\bd\liberation
+
+Following Android Libraries are used:
+view.animation.Transformation
+android.graphics.Matrix
+
+also check transformImageBitmap() class:
+if ( rotation < mMaxRotationAngle ) {
+float zoomAmount = (float) (mMaxZoom + (rotation * 1.5));
+mCamera.translate(0.0f, 0.0f, zoomAmount);
+}
+
+With effective use with View and Animation transformation, the desired Coverflow result is achieved.
